@@ -1,0 +1,171 @@
+
+$White  :#FFFFFF;
+$yellow :#FFFF00;
+$Fuchsia:#FF00FF;
+$Red	:#FF0000;
+$Silver	:#C0C0C0;
+$Gray	:#808080;
+$Olive	:#808000;
+$Purple	:#800080;
+$Maroon	:#800000;
+$Aqua	:#00FFFF;
+$Lime	:#00FF00;
+$Teal	:#008080;	
+$Green	:#008000;
+$Blue	:#0000FF;
+$Navy	:#000080;
+$Black	:#000000;
+
+$primary_color:$Aqua;
+$secondary_color:#008000;
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+	 font-family: 'Lato', sans-serif;
+	// font-family: 'Montserrat', sans-serif;
+}
+section{
+	margin: 80px 0px;
+	padding: 10px;
+}
+.menu_bg{
+	background: #a20a3a;
+	 color: $White;
+}
+
+.nav-link{
+	color: $White;
+}
+
+.navbar-brand{
+	color: $White;
+}
+.navbar-nav .nav-link.active {
+    background: #821212 !important;
+}
+
+
+.navbar-toggler{
+	color: $White;
+}
+.carousel-caption {
+	h1, p{
+	color: $White;	
+	// background: #6b0626;
+	// color: #209FA6;
+	}
+}
+.sign{
+	border-right: 2px solid Beige;
+
+	padding: 50px;
+
+}
+#sign{
+	h1{
+		color: #a20a3a;
+	}
+	button{
+
+		background: #a20a3a;
+		border: none;
+	
+	}
+}
+
+form{
+	margin-top: 25px;
+
+}
+.Understand{
+	border-bottom: 2px solid #a20a3a;
+	color: gray;
+	width: 80%;
+}
+
+#feature{
+	background: url(../img/alcohol.jpg) no-repeat;
+	background-size: 100%;
+	padding: 80px 0px;
+	background-attachment: fixed;
+	color: white;
+
+	.band{
+		// width: 500px;
+		// border: 5px solid red;
+		text-align: center;
+		margin:  0 auto;
+		p{
+			color: $White;
+			font-size: 20px;
+		}
+		.img-fluid{
+			margin-top: 20px;
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			margin:  0 auto;
+			
+
+		}
+
+	}
+	
+}
+
+
+#benifit{
+	h3{
+		margin-bottom: 20px;
+		color: #a20a3a; 
+	}
+	.info-text{
+	margin-top: 30px;
+	
+		h5{
+			margin: 20px ;
+			// text-transform: uppercase;
+			font-size: 16px;
+		}
+		h6{
+			text-transform: lowercase;
+			text-align: justify;
+			margin-right: 15px;
+		}
+		
+	
+}
+}
+.info-icon{
+	 box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.05);
+	 height: 350px;
+	 margin-bottom: 20px;
+	.fas, .far{
+			margin-top: 50px;
+			font-size: 25px;
+		}
+}
+#vedio{
+	h3{
+		margin-bottom: 20px;
+		color: #a20a3a;
+	}
+}
+#pricing{
+	h3{
+		margin-bottom: 30px;
+		color: #a20a3a;	
+	}
+	.middle{
+		background: #a20a3a;
+		// background: #e0dbdb;
+	}
+
+	.first{
+		
+		margin: 15px 0px;
+	}
+}
+.bg-footer{
+	background: #6b0626 !important;	
+}
+
