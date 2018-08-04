@@ -17,7 +17,7 @@ $Navy	:#000080;
 $Black	:#000000;
 
 $primary_color:$Aqua;
-$secondary_color:#008000;
+$secondary_color:$Red;
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body{
 	 font-family: 'Lato', sans-serif;
@@ -28,7 +28,8 @@ section{
 	padding: 10px;
 }
 .menu_bg{
-	background: #a20a3a;
+	// background: #a20a3a;
+	background: $secondary_color;
 	 color: $White;
 }
 
